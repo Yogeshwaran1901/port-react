@@ -1,0 +1,375 @@
+@media (orientation:landscape) {
+.a5 {
+    margin-top: 4.4vh;
+    margin-left: 45vw;
+}
+
+.b5 {
+    height: 50vh;
+    width: 40vw;
+    margin-left: -47.1vw;
+    margin-top: -1em;
+    background: linear-gradient(20deg, rgb(1, 17, 40), rgb(4, 1, 8));
+    border: .15em solid rgb(10, 108, 245);
+    border-radius: .5em;
+    transition: all 2s ease;
+}
+
+.c5 {
+    height: 96vh;
+    width: 100vw;
+    margin-top: 10vh;
+    top: 0%;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    background-attachment: fixed;
+    left: 0%;
+    background: linear-gradient(20deg, rgb(1, 17, 40), rgb(4, 1, 8));
+
+}
+
+.b5:hover {
+    background: linear-gradient(20deg, rgb(7, 7, 7), rgb(39, 39, 40));
+    ;
+    animation: b5 3s ease;
+}
+
+@keyframes b5 {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.d5 {
+    color: #fcf9f9;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0% 7% 7% 7%;
+}
+
+.pro {
+    margin-top: -4vh;
+    margin-left: 7%;
+    height: 2.3vh;
+    width: 34vw;
+    display: flex;
+}
+
+progress::-webkit-progress-bar {
+    border: 2px solid rgb(10, 108, 245);
+    padding: .4%;
+    border-radius: .2em;
+    background: linear-gradient(20deg, rgb(1, 17, 40), rgb(4, 1, 8));
+
+}
+
+progress::-webkit-progress-value {
+    background-color: rgb(10, 108, 245);
+    border-radius: .2em;
+    border: 3px solid rgb(10, 108, 245);
+}
+
+progress::-moz-progress-bar {
+    background-color: #4CAF50;
+    border-radius: 8px;
+}
+
+.d50 {
+    color: #fcf9f9;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: end;
+    margin: 0vw 3.5vw 0vw 4.9vw;
+}
+
+.f5 {
+    transition: all 3s ease;
+    padding-top: .3em;
+}
+
+.f5:hover {
+    border: .2em solid rgb(10, 108, 245);
+    border-radius: .5em;
+    transform: scale(1.1);
+    background: linear-gradient(20deg, rgb(7, 7, 7), rgb(39, 39, 40));
+    ;
+    transition: all 3s ease;
+    background-color: transparent;
+}
+
+.j5 {
+    margin-top: 13vh;
+}
+
+.m5 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 45vh;
+    width: 35vw;
+    background-color:transparent;
+    border-radius: 2%;
+    margin-left: 57.9%;
+    padding-top: 4%;
+    margin-top: -3%;
+   
+}
+.n5{
+    margin-top: -5%;
+    margin-top: 1%;
+}
+.n51{
+    margin-top: 3%;
+}
+
+input{
+    background-color: transparent;
+    border: .2em solid rgb(10,108,245);
+    transition: all 2s ease;
+    padding: 2%;
+    margin-left: .5vw;
+    border-radius: .5em;
+    width: 42.2%;
+    color:rgb(10,108,245);
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+input:hover{
+    background:blue;
+    background:rgb(93, 93, 94);
+    transition: all 3s ease;
+}
+::placeholder{
+    color: #fcf9f9;
+    font-weight: bold;
+    transition: all 2s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+textarea{
+    background-color: transparent;
+    border: .2em solid rgb(10,108,245);
+    height: 27vh;
+    transition: all 2s ease;
+    color:rgb(10,108,245);
+    padding: 1%;
+    width: 32.5vw;
+    margin: 2.5% 1.5% 0% 1.5%;
+    font-size: 1.4em;
+    border-radius: .5em;
+}
+textarea:hover{
+    background:rgb(93, 93, 94);
+    transition: all 3s ease;
+}
+.i4{
+    margin-top:4%;
+    margin-left: 38%;
+    background-color: rgb(11, 127, 185);
+    height: 4.5vh;
+    width: 7vw;
+    font-weight: bold;
+    border: 0px solid black;
+    border-radius: .5em;
+    }
+
+
+}
+
+@media (max-width:768px) and (orientation:portrait){
+    .a5 {
+        margin-top: 3vh;
+        margin-left: 2vw;
+    }
+    
+    .b5 {
+        height: 43vh;
+        margin-bottom: 6%;
+        width: 65vw;
+        margin-bottom: 16%;
+        margin-left: 17vw;
+        margin-top: -14em;
+        background: linear-gradient(20deg, rgb(1, 17, 40), rgb(4, 1, 8));
+        border: .15em solid rgb(10, 108, 245);
+        border-radius: .5em;
+        transition: all 2s ease;
+    }
+    
+    .c5 {
+        height: 113vh;
+        width: 100vw;
+        margin-top: 40vh;
+        top: 0%;
+        position: static;
+        display: flex;
+        flex-direction: column;
+        background-attachment: fixed;
+        left: 0%;
+        background: linear-gradient(20deg, rgb(1, 17, 40), rgb(4, 1, 8));
+    
+    }
+    
+    .b5:hover {
+        background: linear-gradient(20deg, rgb(7, 7, 7), rgb(6, 6, 255));
+        ;
+        animation: b5 3s ease;
+    }
+    
+    @keyframes b5 {
+        0% {
+            opacity: 0.5;
+        
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    .d5 {
+        color: #fcf9f9;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0% 7% 8% 7%;
+    }
+    
+    .pro {
+        margin-top: -3vh;
+        margin-left: 7%;
+        height: 2.3vh;
+        width: 57vw;
+        display: flex;
+    }
+    
+    progress::-webkit-progress-bar {
+        border: 2px solid rgb(10, 108, 245);
+        padding: .4%;
+        border-radius: .2em;
+        background: linear-gradient(20deg, rgb(1, 17, 40), rgb(4, 1, 8));
+    
+    }
+    
+    progress::-webkit-progress-value {
+        background-color: rgb(10, 108, 245);
+        border-radius: .2em;
+        border: 3px solid rgb(10, 108, 245);
+    }
+    
+    progress::-moz-progress-bar {
+        background-color: #4CAF50;
+        border-radius: 8px;
+    }
+    
+    .d50 {
+        color: #fcf9f9;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0vw 3vw 0vw 0vw;
+    }
+    
+    .f5 {
+        transition: all 3s ease;
+        padding-top: .3em;
+    }
+    
+    .f5:hover {
+        border: .2em solid rgb(10, 108, 245);
+        border-radius: .5em;
+        transform: scale(1.1);
+        background: linear-gradient(20deg, rgb(7, 7, 7), rgb(39, 39, 40));
+        ;
+        transition: all 3s ease;
+        background-color: transparent;
+    }
+    
+    .j5 {
+        margin-top: 10vh;
+        margin-left: 50%;
+    }
+    
+    .m5 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 45vh;
+        width: 60vw;
+        background-color:transparent;
+        border-radius: 2%;
+        margin-left: 29.4%;
+        padding-top: 4%;
+        margin-top: 5%;
+       
+    }
+    .n5{
+        margin-top: -5%;
+        margin-top: 1%;
+    }
+    .n51{
+        margin-top: 3%;
+    }
+    
+    input{
+        background-color: transparent;
+        border: .2em solid rgb(10,108,245);
+        transition: all 2s ease;
+        padding: 2%;
+        margin-left: .5vw;
+        border-radius: .5em;
+        width: 42.2%;
+        color:rgb(10,108,245);
+        font-weight: bold;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: medium;
+        }
+    input:hover{
+        background:rgb(128, 128, 128);
+        color: white;
+        cursor: pointer;
+        transition: all 3s ease;
+        opacity: .9;
+        filter: drop-shadow(18px 20px 52px rgb(10, 59, 224));
+   
+    }
+    ::placeholder{
+        color: #fcf9f9;
+        font-weight: bold;
+        transition: all 2s ease;
+        font-size: small;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    textarea{
+        background-color: transparent;
+        border: .2em solid rgb(10,108,245);
+        height: 27vh;
+        transition: all 2s ease;
+        color:rgb(10,108,245);
+        padding: 1%;
+        width: 56.6vw;
+        margin: 2.5% 1.5% 0% 1.5%;
+        font-size: 1.4em;
+        border-radius: .5em;
+        filter: drop-shadow(4px 4px 5pc rgb(10, 59, 224));
+    }
+    textarea:hover{
+        background:rgb(128, 128, 128);
+        color: white;
+        cursor: pointer;
+        transition: all 3s ease;
+        opacity: .6;
+    }
+    .i4{
+        margin-top:4%;
+        margin-left: 39%;
+        background-color: rgb(11, 127, 185);
+        height: 4.5vh;
+        width: 15vw;
+        font-weight: bold;
+        border: 0px solid black;
+        border-radius: .5em;
+    }
+}

@@ -1,0 +1,757 @@
+@media (orientation:landscape) {
+.a {
+    background: linear-gradient(20deg, rgb(7, 7, 7), rgb(26, 26, 35));
+    display: fixed;
+    height: 525vh;
+    background-size: contain;
+    align-content: start;
+    width: 100vw;
+    flex-direction: column;
+    background-attachment: fixed;
+    top: 0%;
+    left: 0%;
+    margin-left: -1.1vw;
+    margin-top: -1.1vh;
+}
+.navo{
+    display: none;
+}
+.b {
+    color: aliceblue;
+    height: 5%;
+    flex-wrap: wrap;
+
+    transition: all 2s ease-out;
+    margin-left: 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+}
+
+.b:hover {
+    color: rgb(7, 161, 238);
+    transition: all 2s ease-out;
+}
+
+header {
+    flex-wrap: wrap;
+    position: sticky;
+    width: 100vw;
+    height: 10vh;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    background-color: rgb(39, 39, 39);
+    z-index: 6;
+}
+
+.c {
+    display: flex;
+    margin-left: 63vw;
+    margin-right: 3%;
+    flex-wrap: wrap;
+    margin-top:-2%;
+    flex-direction: row;
+    color: white;
+}
+
+.a2{
+    margin-left: 2.5vw;
+    height: 3vh;
+    display: flex;
+    margin-top: 0vh;
+    flex-wrap: wrap;
+    transition: all .5s ease-out;
+    font-weight: bold;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a2:active {
+    color: aliceblue;
+}
+
+.a2:hover {
+    color: rgb(7, 161, 238);
+    display: flex;
+    flex-wrap: wrap;
+    transition: all .5s ease-out;
+    border: 0px 0px 4px 0px;
+    border-bottom-color: rgb(7, 161, 238);
+    border-bottom-style: solid;
+    border-radius: 5%;
+    letter-spacing: .1em;
+}
+
+.d {
+    font-size: 3.5em;
+    margin-left: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+    min-width: 200px;
+    color: white;
+    font-family: cursive;
+}
+
+hr {
+    background-color: rgb(254, 253, 253);
+    border: 0px solid black;
+    height: 70vh;
+    width: .5%;
+    border-radius: 10em;
+    margin-top: -10%;
+    margin-left: 54%;
+    margin-bottom: -16%;
+    transform: rotate(90deg);
+}
+
+.f {
+    color: rgb(7, 161, 238);
+    margin-left: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: -3vh;
+    letter-spacing: .2vw;
+    flex: 1;
+    min-width: 200px;
+}
+.e19{
+    display: flex;
+    flex-direction: row;
+}
+
+.f1 {
+    color: rgb(7, 161, 238);
+    margin-left: -68.5vw;
+    margin-top: 58vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    letter-spacing: .1vw;
+}
+
+.e {
+    margin-left: 9%;
+    margin-top: 5%;
+    border: 1px solid rgb(18, 18, 18);
+    border-radius: 1em;
+    box-shadow: rgb(7, 161, 238) 0em 0.7em 0.9em;
+    width: 60vw;
+    height: 62vh;
+    display: flex;
+    flex-direction: column;
+    animation: em 5s ease-in-out infinite;
+    padding-top: 1%;
+}
+
+.img {
+    height: 48vh;
+    width: 29vw;
+    margin-top: 8%;
+    margin-left: 13%;
+    filter: grayscale(60%);
+    border-radius: 50%;
+    border: .7em solid white;
+}
+
+.img:hover {
+    filter: grayscale(0%);
+    animation: em5 10s ease-in infinite;
+}
+
+@keyframes em5 {
+    0% {
+        filter: grayscale(0%);
+        box-shadow: rgb(7, 161, 238) 0em 0.7em 0.9em;
+    }
+
+    25% {
+        filter: grayscale(60%);
+        box-shadow:none;
+    }
+
+    30% {
+        filter: grayscale(0%);
+        box-shadow: rgb(7, 161, 238) 0em 0.7em 0.9em;
+    }
+
+    50% {
+        filter: grayscale(0%);
+        box-shadow: rgb(7, 161, 238) 0em 1em 1.4em;
+    }
+
+    100% {
+        filter: grayscale(0%);
+        box-shadow: rgb(7, 161, 238) 0em 0.7em 0.9em;
+    }
+}
+
+.p {
+    color: aliceblue;
+    margin-left: 4%;
+    margin-top: -2.5%;
+    font-weight: bold;
+    font-size: 1.1em;
+    width: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+
+}
+
+@keyframes em {
+    0% {
+        box-shadow: rgb(7, 161, 238) 0em 0.7em 0.9em;
+    }
+
+    50% {
+        box-shadow: rgb(7, 161, 238) 0em 1em 1.4em;
+    }
+
+    100% {
+        box-shadow: rgb(7, 161, 238) 0em 0.7em 0.9em;
+    }
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 4em;
+    margin-left: 43vw;
+    margin-top: 2%;
+    letter-spacing: -.09em;
+}
+
+.h {
+    height: 96vh;
+    width: 100vw;
+    margin-top: 10vh;
+    background: linear-gradient(20deg, rgb(1, 17, 40), rgb(4, 1, 8));
+}
+
+.i {
+    background-color: rgb(11, 127, 185);
+    height: 4.5vh;
+    width: 7vw;
+    border: 0px solid black;
+    border-radius: .5em;
+    margin-left: -69vw;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    transition: all 2s ease;
+}
+
+.i:hover {
+    color: rgb(11, 127, 185);
+    background-color: white;
+    border: 2px solid rgb(5, 103, 152);
+    transition: all 1s ease;
+}
+
+.j {
+    margin-left:41.5vw;
+    font-size: 2.5em;
+    margin-top: 4.5%;
+}
+
+i {
+    margin-left: 7%;
+    border-radius: .1em;
+    margin-left: -40%;
+}
+
+i:hover {
+    background-color: rgb(11, 127, 185);
+}
+
+.k {
+    margin-left: -70.4%;
+    height: 24vh;
+    width: 12vw;
+    margin-top: 23.7vh;
+    display: flex;
+    border: 0px solid black;
+    border-radius: 50%;
+}
+
+.li {
+    border-radius: 70% 50% 50% 50%;
+    height: 32vh;
+    width: 16vw;
+    background-color: rgb(10, 108, 245);
+    display: flex;
+    margin-left: -14vw;
+    margin-top: 19.5vh;
+    animation: sp 10s linear infinite;
+}
+
+.li1 {
+    border: .15em solid rgb(10, 108, 245);
+    border-top: .04em solid rgb(50, 51, 51);
+    border-radius: 50%;
+    height: 36.5vh;
+    width: 18.25vw;
+    display: flex;
+    margin-left: -17.4vw;
+    margin-top: 17.5vh;
+    animation: sp 60s linear infinite;
+}
+
+@keyframes sp {
+    0% {
+        transform: rotate(0deg);
+        
+    }
+
+    50% {
+        transform: rotate(180deg);
+        background: linear-gradient(20deg,black,rgb(33, 16, 218));
+        border-radius: 30% 60% 40% 70%;
+    }
+
+    70% {
+        transform: rotate(360deg);
+        background: linear-gradient(20deg,black,rgb(254, 4, 4));
+        border-radius: 40% 60% 20% 10%;
+    }
+    100% {
+        transform: rotate(360deg);
+        border-radius: 70% 50% 50% 50%;
+    }
+}
+
+.li2 {
+    margin-left: -1.8vw;
+}
+
+.p1 {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: -1vh;
+    width: 90vw;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    margin-left: -60em;
+}
+.p2{
+    display:none;
+}
+.e20{
+    display: flex;
+    margin-left: 3.5vh;
+    margin-top: 1vh;
+    flex-direction: row;
+}
+.a26{
+    margin-left: 2.5vw;
+    height: 3vh;
+    display: none;
+    flex-wrap: wrap;
+    transition: all .5s ease-out;
+    font-weight: bold;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+}
+
+
+
+@media (max-width:768px) and (orientation:portrait){
+    
+    .a {
+        background: linear-gradient(20deg, rgb(1, 25, 52),rgb(11, 5, 0), rgb(2, 0, 19));   
+        height: 700vh;
+        background-size: contain;
+        align-content: start;
+        width: 103vw;
+        margin-left: -2.3vw;
+        margin-top: -2.2vh;
+        flex-direction: column;
+        background-attachment: fixed;
+        top: 0%;
+        left: 0%;
+    }
+    .a26:hover{
+        letter-spacing: .15em;
+        color: rgb(10, 108, 245);
+        background-color: aliceblue;
+        width: 25vw;
+        border: .2em solid black;
+        border-radius: .4em;
+    }
+    .e19{
+        display: flex;
+        flex-direction: column;
+    }
+    .b {
+        color: aliceblue;
+        height: 5%;
+        font-size: 1.5em;
+        transition: all 2s ease-out;
+        left: 3vw;
+        position: fixed;
+        top: .2vh;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    }
+    
+    .b:hover {
+        color: rgb(7, 161, 238);
+        transition: all 2s ease-out;
+    }
+    
+    header {
+        position: sticky;
+        width: 98vw;
+        height: 8vh;
+        top: 0%;
+        left: 0%;
+        background-color: rgb(39, 39, 39);
+        flex-direction: row;
+        z-index: 6;
+    }
+.c67{
+    color: aliceblue;
+    background-color: rgb(6, 6, 6);
+    border-radius: 7%;
+    height: 20vh;
+    width: 25vw;
+    margin-top: 10.3vh;
+    margin-left: -76vw;
+    transition: all 2s ease;
+}
+    .c {
+        display: flex;
+        margin-left: 37vw;
+        margin-right: 3%;
+        margin-top: -4.3%;
+        flex-direction: row;
+        color: white;
+
+    }
+    .navo{
+        left: 90vw;
+        height: 2vh;
+        top: 3vh;
+        transition: all .5s ease-out;
+        font-weight: bold;
+        color: aliceblue;
+        position: fixed;
+        font-size: 1;
+        display: block;
+    }
+    .a2{
+        margin-left: 1.4vw;
+        height: 3vh;
+        transition: all .5s ease-out;
+        font-weight: bold;
+        color: aliceblue;
+        font-size: smaller;
+        text-decoration: none;
+        display: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .a26{
+        margin-left: 2.4vw;
+        padding-left: 3vw;
+        height: 3vh;
+        padding-top: 1vh;
+        margin-top: 0vh;
+        border:2px solid rgb(43, 43, 44);
+        transition: all .5s ease-out;
+        background: linear-gradient(20deg, rgb(1, 25, 52),rgb(11, 5, 0), rgb(2, 0, 19));   
+        font-weight: bold;
+        text-align: center;
+        color: aliceblue;
+        border-radius: .5em;
+        font-size: smaller;
+        text-decoration: none;
+        display: flex;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .a2:active {
+        color: aliceblue;
+    }
+    
+    .a2:hover {
+        color: rgb(7, 161, 238);
+        transition: all .5s ease-out;
+        border: 0px 0px 4px 0px;
+        border-bottom-color: rgb(7, 161, 238);
+        border-bottom-style: solid;
+        border-radius: 5%;
+        letter-spacing: .1em;
+    }
+    
+    .d {
+        font-size: 1.7em;
+        margin-left: 4%;
+        flex: 2;
+        margin-top: 19%;
+        min-width: 200px;
+        color: white;
+        font-family: cursive;
+    }
+    
+    hr {
+        background-color: rgb(254, 253, 253);
+        border: 0px solid black;
+        height: 70vh;
+        width: .5%;
+        border-radius: 10em;
+        margin-top: -10%;
+        margin-left: 54%;
+        margin-bottom: -16%;
+        transform: rotate(90deg);
+    }
+    
+    .f {
+        color: rgb(7, 161, 238);
+        margin-left: 4%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3em;
+        height: 3vh;
+        margin-top: -20vh;
+        letter-spacing: .2vw;
+        flex: 1;
+        min-width: 200px;
+    }
+    
+    .f1 {
+        color: rgb(7, 161, 238);
+        margin-left: -100.5vw;
+        margin-top: 51vh;
+        height: 6vh;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 1.3em;
+        letter-spacing: .1vw;
+    }
+    
+    .e {
+        margin-left: 6%;
+        margin-top: 55%;
+        border: 1px solid rgb(18, 18, 18);
+        border-radius: 1em;
+        box-shadow: rgb(7, 161, 238) 0em 0.7em 0.9em;
+        width: 82vw;
+        height: 69vh;
+        display: flex;
+        flex-direction: column;
+        animation: em 5s ease-in-out infinite;
+        padding-top: 1%;
+    }
+    
+    .img {
+        height: 33vw;
+        width: 33vw;
+        margin-top: 15%;
+        margin-left: -58vw;
+        filter: grayscale(90%);
+        align-items: center;
+    display: flex;
+        border-radius: 50%;
+        border: .7em solid white;
+        transition: all 2s ease;
+    }
+    
+    .img:hover {
+        filter: grayscale(0%);
+    transform: scale(1.06);
+        transition: all 2s ease;
+        animation: em5 10s ease-in infinite;
+    }
+    
+    @keyframes em5 {
+        0% {
+            filter: grayscale(0%);
+            box-shadow: rgb(7, 161, 238) 0em 0.7em 0.9em;
+        }
+    
+        25% {
+            filter: grayscale(60%);
+            box-shadow:none;
+        }
+    
+        30% {
+            filter: grayscale(0%);
+            box-shadow: rgb(7, 161, 238) 0em 0.7em 0.9em;
+        }
+    
+        50% {
+            filter: grayscale(0%);
+            box-shadow: rgb(7, 161, 238) 0em 1em 1.4em;
+        }
+    
+        100% {
+            filter: grayscale(0%);
+            box-shadow: rgb(7, 161, 238) 0em 0.7em 0.9em;
+        }
+    }
+    
+    .p {
+        color: aliceblue;
+        margin-left: 4%;
+        margin-top: -14.5%;
+        font-weight: bold;
+        font-size: .86em;
+        width: auto;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    
+    }
+    
+    @keyframes em {
+        0% {
+            box-shadow: rgb(7, 161, 238) 0em 0.7em 0.9em;
+        }
+    
+        50% {
+            box-shadow: rgb(7, 161, 238) 0em 1em 1.4em;
+        }
+    
+        100% {
+            box-shadow: rgb(7, 161, 238) 0em 0.7em 0.9em;
+        }
+    }
+    
+    h2 {
+        color: white;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        font-size: 3.5em;
+        margin-left: 29.5vw;
+        margin-top: 5%;
+        letter-spacing: -.09em;
+    }
+    
+    .h {
+        height: 93vh;
+        width: 100vw;
+        margin-top: 8vh;
+        background: linear-gradient(20deg, rgb(1, 17, 40), rgb(4, 1, 8));
+    }
+    
+    .i {
+        background-color: rgb(11, 127, 185);
+        height: 4.5vh;
+        width: 18.6vw;
+        border: 0px solid black;
+        border-radius: .5em;
+        margin-left: -100vw;
+        color: black;
+        font-size: .75em;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 2%;
+        transition: all 2s ease;
+    }
+    
+    .i:hover {
+        color: rgb(11, 127, 185);
+        background-color: white;
+        border: 2px solid rgb(5, 103, 152);
+        transition: all 1s ease;
+    }
+    
+    .j {
+        margin-left:20%;
+        font-size: 2.5em;
+        margin-top: 15vh;
+    }
+    
+    i {
+        margin-left: -7%;
+        border-radius: .1em;
+    }
+    
+    i:hover {
+        background-color: rgb(11, 127, 185);
+    }
+    
+    .k {
+        margin-left: -71.4%;
+        height: 13vh;
+        width: 26vw;
+        margin-top: 25.7vh;
+        display: flex;
+        border: 0px solid black;
+        border-radius: 50%;
+    }
+    
+    .li {
+        border-radius: 70% 50% 50% 50%;
+        height: 18.5vh;
+        width: 37vw;
+        background-color: rgb(10, 108, 245);
+        margin-left: -30vw;
+        margin-top: 23vh;
+        animation: sp 10s linear infinite;
+    }
+    
+    .li1 {
+        border: .15em solid rgb(10, 108, 245);
+        border-top: .04em solid rgb(50, 51, 51);
+        border-radius: 50%;
+        height: 36.5vh;
+        width: 18.25vw;
+        display: flex;
+        margin-left: -17.4vw;
+        margin-top: 10.5vh;
+        animation: sp 60s linear infinite;
+    }
+    
+    @keyframes sp {
+        0% {
+            transform: rotate(0deg);
+            
+        }
+    
+        50% {
+            transform: rotate(180deg);
+            background: linear-gradient(20deg,black,rgb(33, 16, 218));
+            border-radius: 30% 60% 40% 70%;
+        }
+    
+        70% {
+            transform: rotate(360deg);
+            background: linear-gradient(20deg,black,rgb(254, 4, 4));
+            border-radius: 40% 60% 20% 10%;
+        }
+        100% {
+            transform: rotate(360deg);
+            border-radius: 70% 50% 50% 50%;
+        }
+    }
+    
+    .li2 {
+        margin-left: -7.2vw;
+    }
+    
+    .p1 {
+     display: none;
+    }
+    .p2{
+        color: aliceblue;
+        font-weight: bold;
+        font-size: .8em;
+        margin-top: 2vh;
+        width: 90vw;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+        margin-left: -26.3em;
+        display:flex;
+    }
+    .e20{
+        display: flex;
+        margin-left: 3.5vh;
+        margin-top: 1vh;
+        flex-direction: row;
+    }
+}
+
+
+
