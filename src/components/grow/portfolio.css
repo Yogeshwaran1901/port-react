@@ -1,6 +1,6 @@
 @media (orientation:landscape) {
 .a {
-    background: linear-gradient(20deg, rgb(7, 7, 7), rgb(255, 26, 35));
+    background: linear-gradient(20deg, rgb(7, 7, 7), white);
     display: grid;
     grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
     height: 525vh;
