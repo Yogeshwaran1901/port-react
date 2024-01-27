@@ -1,14 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './portofolio2.css'
+import AOS from 'aos'
+import'aos/dist/aos.css'
 
 function Portfolio3() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+}, []);
   return (
     <>
       <div className="c5">
-        <h2 className='a5'>Skills.</h2>
-        <div style={{ display: 'flex', flexDirection: 'column',marginRight:'47vw' }}>
-          <h5 style={{ marginLeft: '-47.2vw', marginTop: '20vh', color: 'white', letterSpacing: '.02em', fontSize: '1.5em', fontFamily: "cursive" }}>Technical Skills</h5>
-          <div className='b5'>
+        <h2 className='a5' data-aos="fade-left">Skills.</h2>
+        <div className='box' style={{ display: 'flex', flexDirection: 'column',marginRight:'47vw' }}>
+          <h5 class="tech" data-aos="fade-left">Technical Skills</h5>
+          <div className='b5' data-aos="zoom-in">
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <div className="f5">
             <div  style={{ display: 'flex',justifyContent:'space-between',marginTop:'4vh' }}>
@@ -48,8 +53,8 @@ function Portfolio3() {
 
         <div style={{ display: 'flex', flexDirection: 'column' }}>
 
-          <h5 style={{ marginLeft: '-47.2vw', marginTop: '20vh', color: 'white', letterSpacing: '.02em', fontSize: '1.5em', fontFamily: "cursive" }}>Soft Skills</h5>
-          <div className='b5'>
+          <h5 className='tech' data-aos="fade-left">Soft Skills</h5>
+          <div className='b5'  data-aos="zoom-in">
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <div className="f5">
             <div  style={{ display: 'flex', justifyContent:'space-between',marginTop:'4vh' }}>
@@ -74,17 +79,15 @@ function Portfolio3() {
            <progress style={{backgroundColor:'black'}} className='pro' max='100' value='75'></progress>
           </div>
           <div className="f5">
-           <div  style={{ display: 'flex',justifyContent:'space-between',marginTop:'4vh' ,height:'7vh',width:'40vw'}}>
-           <h6 className='d5' style={{justifyContent:'flex-start'}}>Adaptability</h6>
+          <div  style={{ display: 'flex', display: 'flex',justifyContent:'space-between',marginTop:'4vh' }}>
+           <h6 className='d5' style={{width:'20vw'}}>Adaptability</h6>
            <h6 className='d50'>85%</h6>
            </div>
            <progress style={{backgroundColor:'black'}} className='pro' max='100' value='85'></progress>
-         
           </div>
           </div>
-
           </div>
-        </div>
+</div>
       </div>
     </>
   )

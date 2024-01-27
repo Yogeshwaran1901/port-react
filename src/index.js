@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Home from './components/grow/home/home.jsx';
-import Growplant from './components/grow/portfolio.js';
+
 //import Growplant from './components/grow/growplant.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
