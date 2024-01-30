@@ -21,12 +21,7 @@ function Portfolio() {
           <p className='p' data-aos="fade-left">As a web developer, my objectives revolve around mastering front-end technologies, including HTML, CSS, and JavaScript, to craft visually appealing and responsive web interfaces. I aim to explore and implement frameworks like React.js for efficient development and improved user experience. Ensuring cross-browser compatibility and responsive design is crucial in providing a consistent experience across various devices. Additionally, I seek to enhance my backend skills with technologies like Flask, manage databases, and integrate third-party APIs. Collaboration and effective communication with team members, along with a focus on user experience design principles, round out my objectives as a web developer.</p>
           <button className='i'>Download CV</button>
         </div>
-        <img srcset="image-320w.jpg 320w,
-             image-480w.jpg 480w,
-             image-800w.jpg 800w"
-     sizes="(max-width: 320px) 280px,
-            (max-width: 480px) 440px,
-            800px" src={profile1} className='img' data-aos="fade-left"/>
+        <img src={profile1} className='img' data-aos="fade-left"/>
          </div>
       </div>
       <div className='j' data-aos="fade-down" style={{ display: 'flex', flexDirection: 'row', marginTop: '6%' }}>
@@ -44,12 +39,7 @@ function Portfolio1() {
     <div className="h" style={{ display: 'flex', flexDirection: 'row',width:'103vw' }}>
         <h2 data-aos="fade-up">About.</h2>
         <div className='li2' style={{ display: 'flex', flexDirection: 'row' }}>
-        <img srcset="image-320w.jpg 320w,
-             image-480w.jpg 480w,
-             image-800w.jpg 800w"
-     sizes="(max-width: 320px) 280px,
-            (max-width: 480px) 440px,
-            800px" className='k' data-aos="flip-right" style={{zIndex:'5'}} src={profile} />
+        <img className='k' data-aos="flip-right" style={{zIndex:'5'}} src={profile} />
         <p className='li'></p>    
         </div>
         <div  style={{ display: 'flex', flexDirection: 'column' ,marginLeft:"2.1vw"}}>
